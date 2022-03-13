@@ -16,8 +16,8 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to="abaut">
-                                <span className="text-base py-1 pr-2  md:py-2 md:pr-4 md:pl-3 text-gray-700 hover:text-white">Abaut</span>
+                            <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to="about">
+                                <span className="text-base py-1 pr-2  md:py-2 md:pr-4 md:pl-3 text-gray-700 hover:text-white">About</span>
                             </NavLink>
                         </li>
                         <li>
