@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="px-2  py-2.5  bg-[#1ed760] shadow-xl">
+        <nav className="px-2  py-2.5  bg-[#1ed760] shadow-xl min-h-[50px] sticky top-0 z-50">
             <div className="container flex  justify-between items-center mx-auto">
                 <Link className="flex items-center" to="/">
                     <span className="text-xl font-bold text-white">Bergenfy</span>

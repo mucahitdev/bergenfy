@@ -1,16 +1,22 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+import Music from '../components/Music';
+import { songs } from '../components/songdata';
 
 const Musics = () => {
+
+  
+
+
     return (
-        <div>
-            <ReactPlayer
-                url="https://www.mboxdrive.com/senaffet.mp3"
-                width="300px"
-                height="100px"
-                playing={true}
-                controls={true}
-            />
+        <div className='bg-[#181818] '>
+            <div className='container mx-auto flex  flex-col'>
+            <span className='mx-auto text-white font-bold text-4xl my-4'>Musics</span>
+
+            {
+                songs.map((item,id) => (<Music key={id} {...item} />))
+            }
+            
+            </div>
         </div>
     )
 }

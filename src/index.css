@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;700&display=swap');
-body {
+html,body {
     font-family: 'Signika', sans-serif;
+    height: 100vh;
 }
 .is-active span {
     color: aqua;
+}
+.h-my {
+    height: calc(100vh - 50px);
+}
+.react-photo-album--photo {
+    padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
 }
