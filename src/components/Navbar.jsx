@@ -22,7 +22,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to="images">
-                                <span className="text-base py-1 pr-2  md:py-2 md:pr-4 md:pl-3 text-gray-700 hover:text-white">İmages</span>
+                                <span className="text-base py-1 pr-2  md:py-2 md:pr-4 md:pl-3 text-gray-700 hover:text-white">Images</span>
                             </NavLink>
                         </li>
                     </ul>
