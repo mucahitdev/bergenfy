@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 
 const Music = ({ title, url, auto }) => {
     return (<>
-        <div className='flex flex-col sm:flex-row sm:justify-between item-center border-b-2 border-amber-100 last:border-0 justify-center px-3'> 
+        <div className='flex flex-col sm:flex-row sm:justify-between item-center border-b-2 border-amber-100 last:border-0 justify-center  px-3'> 
             <div className='flex justify-center my-4 sm:my-0'>
                 <p className='text-white sm:my-auto'> {title} </p>
             </div>
