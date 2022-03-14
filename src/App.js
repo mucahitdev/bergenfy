@@ -5,6 +5,7 @@ import Musics from './pages/Musics';
 import Navbar from './components/Navbar';
 import Images from './pages/Images';
 import About from './pages/About';
+import Footer from './components/Footer';
 
 
 
@@ -22,7 +23,7 @@ function App() {
         <Route  path="images" element={<Images />} />
         <Route  path="about" element={<About />} />
       </Routes>
-
+      <Footer />
     </div>
   );
 }

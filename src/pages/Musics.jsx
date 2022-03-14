@@ -9,8 +9,8 @@ const Musics = () => {
 
     return (
         <div className='bg-[#181818] h-screen '>
-            <div className='bg-[#181818]'>
-                <div className='container mx-auto flex  flex-col '>
+            <div className='bg-[#181818] pb-28'>
+                <div className='container mx-auto flex  flex-col px-5'>
                     <span className='mx-auto text-white font-bold text-4xl my-4'>Musics</span>
 
                     {

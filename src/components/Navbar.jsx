@@ -4,11 +4,11 @@ import { NavLink, Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className="px-2  py-2.5  bg-[#1ed760] shadow-xl min-h-[50px] sticky top-0 z-50">
-            <div className="container flex  justify-between items-center mx-auto">
-                <Link className="flex items-center" to="/">
+            <div className="container flex justify-center  sm:justify-between items-center mx-auto">
+                <Link className="flex items-center " to="/">
                     <span className="text-xl font-bold text-white">Bergenfy</span>
                 </Link>
-                <div className="items-center flex w-auto " >
+                <div className="hidden  items-center sm:flex w-auto " >
                     <ul className="flex space-x-0   md:space-x-3 text-sm">
                         <li>
                             <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to="musics">

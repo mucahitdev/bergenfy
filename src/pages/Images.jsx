@@ -79,7 +79,7 @@ const Images = () => {
         }
     ];
     return (
-        <div className="mt-10">
+        <div className="mt-10 pb-28">
             <div className="container mx-auto">
                 <PhotoAlbum layout="masonry" photos={photos}  />
             </div>

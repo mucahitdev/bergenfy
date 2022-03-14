@@ -5,12 +5,12 @@ export const songs = [
         auto:false
     },
     {
-        title:"Bergen - Sabır Ver ( İnsan Dertli Olunca )",
+        title:"Sabır Ver(İnsan Dertli Olunca)",
         url:"https://www.mboxdrive.com/sabirver.mp3",
         auto:false
     },
     {
-        title:"Bergen - Elimde Fotoğrafın",
+        title:"Elimde Fotoğrafın",
         url:"https://www.mboxdrive.com/elimdefotografin.mp3",
         auto:false
     },
@@ -20,17 +20,17 @@ export const songs = [
         auto:false
     },
     {
-        title:"Bergen - Seni Kalbimden Kovdum",
+        title:"Seni Kalbimden Kovdum",
         url:"https://www.mboxdrive.com/Bergen%20-%20Seni%20Kalbimden%20Kovdum.mp3",
         auto:false
     },
     {
-        title:"Bergen- kul feryadı",
+        title:"Kul feryadı",
         url:"https://www.mboxdrive.com/Bergen-%20kul%20feryad%C4%B1.mp3",
         auto:false
     },
     {
-        title:"Bergen - Benim İçin Üzülme",
+        title:"Benim İçin Üzülme",
         url:"https://www.mboxdrive.com/Bergen%20-%20Benim%20I%CC%87c%CC%A7in%20U%CC%88zu%CC%88lme.mp3",
         auto:false
     },
